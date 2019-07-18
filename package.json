@@ -7,6 +7,8 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "author": "Vimal Atreya Ramaka",
+  "LICENSE": "LICENSE IN FILE",
   "dependencies": {
     "@apollo/react-hooks": "^0.1.0-beta.10",
     "@eva-design/eva": "^1.0.1",
