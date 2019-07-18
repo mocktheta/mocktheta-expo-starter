@@ -1,6 +1,7 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "test": "jest",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -10,7 +11,7 @@
   "author": "Vimal Atreya Ramaka",
   "LICENSE": "LICENSE IN FILE",
   "dependencies": {
-    "@apollo/react-hooks": "^0.1.0-beta.10",
+    "@apollo/react-hooks": "^0.1.0-beta.11",
     "@eva-design/eva": "^1.0.1",
     "apollo-cache-inmemory": "^1.6.2",
     "apollo-cache-persist": "^0.1.1",
@@ -19,7 +20,7 @@
     "expo": "^33.0.0",
     "graphql": "^14.4.2",
     "graphql-tag": "^2.10.1",
-    "react": "16.8.3",
+    "react": "16.8.6",
     "react-apollo": "^2.5.8",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
@@ -33,7 +34,12 @@
     "@types/react-native": "^0.57.60",
     "@types/react-navigation": "^3.0.7",
     "babel-preset-expo": "^5.1.1",
+    "jest-expo": "^33.0.2",
+    "react-test-renderer": "^16.8.6",
     "typescript": "^3.4.5"
   },
-  "private": true
+  "private": true,
+  "jest": {
+    "preset": "jest-expo"
+  }
 }
