@@ -6,6 +6,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "clean": "npx rimraf .expo* node_modules yarn.lock",
+    "clean-install": "yarn run clean && yarn",
     "eject": "expo eject"
   },
   "author": "Vimal Atreya Ramaka",
